@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Debian) (preloaded format=pdflatex 2020.6.9)  18 JUN 2020 23:46
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Debian) (preloaded format=pdflatex 2020.6.9)  19 JUN 2020 00:34
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -623,6 +623,21 @@ Underfull \hbox (badness 10000) in paragraph at lines 183--184
 
  []
 
+
+Underfull \hbox (badness 10000) in paragraph at lines 183--184
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 183--184
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 183--184
+
+ []
+
 [11]
 Rozdzia\l  5.
 [12
@@ -646,7 +661,7 @@ Rozdzia\l  9.
 ]
 Rozdzia\l  10.
 
-Overfull \hbox (12.74937pt too wide) in paragraph at lines 220--220
+Overfull \hbox (12.74937pt too wide) in paragraph at lines 221--221
 |[]\T1/cmr/m/n/20.74 Dodatkowe ma-te-riaªy me-ry-to-ryczne do wgl¡du
  []
 
@@ -658,17 +673,17 @@ Rozdzia\l  11.
 
 ]
 Rozdzia\l  12.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 225.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 226.
 [19
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 225.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 226.
  (./documentation.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 225.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 225.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 226.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 226.
 Package rerunfilecheck Info: File `documentation.out' has not changed.
 (rerunfilecheck)             Checksum: 84B1A5DC1EBD20FCAE4420EF53CBF94E;2100.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 225.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 226.
  ) 
 Here is how much of TeX's memory you used:
  6875 strings out of 482348
@@ -688,10 +703,10 @@ pk> </home/yzere/.texlive2020/texmf-var/fonts/pk/ljfour/jknappen/ec/ecti1000.60
 74.600pk> </home/yzere/.texlive2020/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1
 200.600pk> </home/yzere/.texlive2020/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm
 2488.600pk>
-Output written on documentation.pdf (20 pages, 159914 bytes).
+Output written on documentation.pdf (20 pages, 160205 bytes).
 PDF statistics:
- 691 PDF objects out of 1000 (max. 8388607)
- 306 compressed objects within 4 object streams
+ 693 PDF objects out of 1000 (max. 8388607)
+ 308 compressed objects within 4 object streams
  59 named destinations out of 1000 (max. 500000)
  265 words of extra memory for PDF output out of 10000 (max. 10000000)
 
