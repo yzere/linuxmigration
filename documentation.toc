@@ -12,9 +12,9 @@
 \contentsline {chapter}{\numberline {4}Rodzaje dystrybucji}{8}{chapter.4}%
 \contentsline {section}{\numberline {4.1}Modele licencjonowania}{8}{section.4.1}%
 \contentsline {section}{\numberline {4.2}Dystrybucje Linuxa}{9}{section.4.2}%
-\contentsline {chapter}{\numberline {5}Proces migracji}{12}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Zmiana systemu}{12}{section.5.1}%
-\contentsline {section}{\numberline {5.2}Nauka funkcjonalności}{12}{section.5.2}%
+\contentsline {chapter}{\numberline {5}Zmiana systemu}{12}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Instalacja}{12}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Nauka obsługi systemu oraz dobre nawyki}{12}{section.5.2}%
 \contentsline {chapter}{\numberline {6}Aplikacje i środowiska alternatywne}{13}{chapter.6}%
 \contentsline {section}{\numberline {6.1}Biurowe}{13}{section.6.1}%
 \contentsline {section}{\numberline {6.2}Software Development}{13}{section.6.2}%
