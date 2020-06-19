@@ -3,6 +3,9 @@
 \usepackage[T1]{fontenc}
 \usepackage[polish]{babel}
 \usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+
+\graphicspath{ {./media/} }
 
 \usepackage[margin=1.2in]{geometry}
 
@@ -168,7 +171,7 @@ Pomyśl o programach, których używasz na co dzień. Za ile z nich płacisz mie
 
 	\section{Dystrybucje Linuxa}
 	
-\textbf{Uwaga!} Wymienione systemy są tylko sugerowanymi najpopularniejszymi opcjami, nie będu tutaj opisywał ich dokładnie, lecz dostarczał linki do materiałów referencyjnych do dalszego wglądu. Zachęcam do własnego rozeznania po zapoznaniu się z działem. Pamiętaj, żeby wybierać najnowsze, rekomendowane wersje oprogramowania przez developerów.\\\\
+Wymienione systemy są tylko najpopularniejszymi opcjami, nie będu tutaj opisywał ich dokładnie, lecz dostarczał linki do materiałów referencyjnych do dalszego wglądu. Zachęcam do własnego rozeznania po zapoznaniu się z działem. Pamiętaj, żeby wybierać najnowsze, rekomendowane przez developerów wersje oprogramowania.\\\\
 Najważniejsze dystrybucje:\\
 \begin{itemize}
 \item {\Huge MX Linux\\\\} Dosyć młody produkt, który cały czas się rozwija i coraz bardziej zadziwia. Dostarcza on proste i przejrzyste środowisko graficzne. Jest dystrybucją lekką, co oznacza, że będzie świetnie działał nawet na starszych jednostkach. Jest także skonfigurowany tak aby użytkownik mogł korzystać z niego zaraz po zainstalowaniu.\\\\Strona internetowa: \url{https://mxlinux.org}\\ Dodatkowe informacje: \href{https://distrowatch.com/table.php?distribution=mx}{https://distrowatch.com/mxlinux}\\
@@ -184,8 +187,21 @@ Jeśli jednak potrzebujesz systemu oferującego inny zestaw funkcji nie ogranicz
 	
 \chapter{Zmiana systemu}
 
+\textbf{Uwaga!} \textbf{Proces instalowania wymaga operacji na dyskach twardych twojej maszyny. Może to wiązać się to z omyłkowym usunięciem danych lub ich zniszczeniem. Przez rozpoczęciem upewnij się, że masz zrobioną kopię zapasową wszystkich ważnych plików i/lub poprzedniego systemu operacyjnego.}
 
 	\section{Instalacja}
+	
+Proces instalowania warto podzielić na 3 etapy:
+\begin{enumerate}
+\item Tworzenie nośnika ISO
+\item Instalacja systemu na docelowej maszynie
+\item Konfiguracja poinstalacyjna\\
+\end{enumerate}	
+Teraz kolejno przejdziemy przez wszystkie 3 na przykładzie Linux Manjaro XFCE 20.0.3.
+
+		\subsection{Tworzenie nośnika}
+
+Aby móc zainstalować system operacyjny na komputerze potrzebujemy urządzenia będącego nośnikiem obrazu takiego systemu. Do tego potrzebujemy pendriva conajmniej 8GB oraz obrazu systemu w postaci ISO. Taki można pobrać na stronach twórców w zakładce Downloads. Gdy mamy już te elementy potrzebujemy narzędzia, które przygotuje pendriva jako nośnik. Polecam Rufusa dla użytkowników Windowsa oraz UUByte Software na MacOS. Nie są to jednak jedyne opcje i warto poszukać czy aktualnie nie wyszły nowsze, lepsze narzędzia.\\\\Windows\\\\Rufus: \url{https://rufus.ie/}\\ YUMI: \url{https://www.pendrivelinux.com/yumi-multiboot-usb-creator/}\\\\MacOS\\\\\ UUByte Software: \url{https://www.uubyte.com/download/uubyte-iso-editor.dmg}\\Disk Utility - The Default ISO Buner (narzędzie wbudowane, polecane na starych urządzeniach.)
 	
 	\section{Nauka obsługi systemu oraz dobre nawyki}
 	
