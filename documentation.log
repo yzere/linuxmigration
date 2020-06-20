@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Debian) (preloaded format=pdflatex 2020.6.9)  20 JUN 2020 15:06
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Debian) (preloaded format=pdflatex 2020.6.9)  20 JUN 2020 18:02
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -777,59 +777,214 @@ File: ./media/manjaro_install1.png Graphic file (type png)
 <use ./media/manjaro_install1.png>
 Package pdftex.def Info: ./media/manjaro_install1.png  used on input line 215.
 (pdftex.def)             Requested size: 254.43878pt x 190.08183pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 218--219
+
+ []
+
 <./media/manjaro_install2.png, id=276, 1023.825pt x 761.84625pt>
 File: ./media/manjaro_install2.png Graphic file (type png)
 <use ./media/manjaro_install2.png>
 Package pdftex.def Info: ./media/manjaro_install2.png  used on input line 220.
-(pdftex.def)             Requested size: 254.43878pt x 189.33348pt.
+(pdftex.def)             Requested size: 318.04524pt x 236.65814pt.
 [13 <./media/manjaro_install1.png> <./media/manjaro_install2.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 225--226
+
+ []
+
+<./media/manjaro_install3.png, id=283, 1028.84375pt x 590.205pt>
+File: ./media/manjaro_install3.png Graphic file (type png)
+<use ./media/manjaro_install3.png>
+Package pdftex.def Info: ./media/manjaro_install3.png  used on input line 227.
+(pdftex.def)             Requested size: 402.85602pt x 231.10661pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 227--228
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 227--228
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 227--228
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 230--231
+
+ []
+
+<./media/manjaro_install4.png, id=284, 1025.8325pt x 589.20125pt>
+File: ./media/manjaro_install4.png Graphic file (type png)
+<use ./media/manjaro_install4.png>
+Package pdftex.def Info: ./media/manjaro_install4.png  used on input line 232.
+(pdftex.def)             Requested size: 402.85602pt x 231.38786pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 232--233
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 232--233
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 232--233
+
+ []
+
+[14 <./media/manjaro_install3.png> <./media/manjaro_install4.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 237--238
+
+ []
+
+<./media/manjaro_install5.png, id=292, 1030.85126pt x 587.19376pt>
+File: ./media/manjaro_install5.png Graphic file (type png)
+<use ./media/manjaro_install5.png>
+Package pdftex.def Info: ./media/manjaro_install5.png  used on input line 239.
+(pdftex.def)             Requested size: 402.85602pt x 229.47055pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 239--240
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 239--240
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 239--240
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 242--243
+
+ []
+
+<./media/manjaro_install6.png, id=293, 1028.84375pt x 587.19376pt>
+File: ./media/manjaro_install6.png Graphic file (type png)
+<use ./media/manjaro_install6.png>
+Package pdftex.def Info: ./media/manjaro_install6.png  used on input line 244.
+(pdftex.def)             Requested size: 402.85602pt x 229.9275pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 244--245
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 244--245
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 244--245
+
+ []
+
+[15 <./media/manjaro_install5.png> <./media/manjaro_install6.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 249--250
+
+ []
+
+<./media/manjaro_install7.png, id=300, 1031.855pt x 583.17876pt>
+File: ./media/manjaro_install7.png Graphic file (type png)
+<use ./media/manjaro_install7.png>
+Package pdftex.def Info: ./media/manjaro_install7.png  used on input line 251.
+(pdftex.def)             Requested size: 402.85602pt x 227.67906pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 251--252
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 251--252
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 251--252
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 254--255
+
+ []
+
+<./media/manjaro_install8.png, id=301, 1026.83624pt x 587.19376pt>
+File: ./media/manjaro_install8.png Graphic file (type png)
+<use ./media/manjaro_install8.png>
+Package pdftex.def Info: ./media/manjaro_install8.png  used on input line 256.
+(pdftex.def)             Requested size: 402.85602pt x 230.37549pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 256--257
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 256--257
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 256--257
+
+ []
+
+[16 <./media/manjaro_install7.png> <./media/manjaro_install8.png>] [17]
 Rozdzia\l  6.
-[14
+[18
 
 ]
 Rozdzia\l  7.
-[15
+[19
 
 ]
 Rozdzia\l  8.
-[16
+[20
 
 ]
 Rozdzia\l  9.
-[17
+[21
 
 ]
 Rozdzia\l  10.
 
-Overfull \hbox (12.74937pt too wide) in paragraph at lines 257--257
+Overfull \hbox (12.74937pt too wide) in paragraph at lines 293--293
 |[]\T1/cmr/m/n/20.74 Dodatkowe ma-te-riaªy me-ry-to-ryczne do wgl¡du
  []
 
-[18
+[22
 
 ]
 Rozdzia\l  11.
-[19
+[23
 
 ]
 Rozdzia\l  12.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 262.
-[20
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 298.
+[24
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 262.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 298.
  (./documentation.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 262.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 262.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 298.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 298.
 Package rerunfilecheck Info: File `documentation.out' has not changed.
 (rerunfilecheck)             Checksum: 03F057E16319102B7D5C3C3947FB20D6;2235.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 262.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 298.
  ) 
 Here is how much of TeX's memory you used:
- 8223 strings out of 482348
- 123683 string characters out of 5946299
+ 8269 strings out of 482348
+ 124786 string characters out of 5946299
  409525 words of memory out of 5000000
- 23766 multiletter control sequences out of 15000+600000
+ 23797 multiletter control sequences out of 15000+600000
  546185 words of font info for 61 fonts, out of 8000000 for 9000
  56 hyphenation exceptions out of 8191
  37i,6n,70p,1700b,452s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -844,10 +999,10 @@ pk> </home/yzere/.texlive2020/texmf-var/fonts/pk/ljfour/jknappen/ec/ectt1000.60
 074.600pk> </home/yzere/.texlive2020/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm
 1200.600pk> </home/yzere/.texlive2020/texmf-var/fonts/pk/ljfour/jknappen/ec/ecr
 m2488.600pk>
-Output written on documentation.pdf (21 pages, 1047625 bytes).
+Output written on documentation.pdf (25 pages, 1614017 bytes).
 PDF statistics:
- 758 PDF objects out of 1000 (max. 8388607)
- 336 compressed objects within 4 object streams
- 68 named destinations out of 1000 (max. 500000)
- 291 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 790 PDF objects out of 1000 (max. 8388607)
+ 356 compressed objects within 4 object streams
+ 77 named destinations out of 1000 (max. 500000)
+ 321 words of extra memory for PDF output out of 10000 (max. 10000000)
 
