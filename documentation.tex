@@ -4,6 +4,7 @@
 \usepackage[polish]{babel}
 \usepackage[utf8]{inputenc}
 \usepackage{graphicx}
+\usepackage[export]{adjustbox}
 
 \graphicspath{ {./media/} }
 
@@ -201,7 +202,26 @@ Teraz kolejno przejdziemy przez wszystkie 3 na przykładzie Linux Manjaro XFCE 2
 
 		\subsection{Tworzenie nośnika}
 
-Aby móc zainstalować system operacyjny na komputerze potrzebujemy urządzenia będącego nośnikiem obrazu takiego systemu. Do tego potrzebujemy pendriva conajmniej 8GB oraz obrazu systemu w postaci ISO. Taki można pobrać na stronach twórców w zakładce Downloads. Gdy mamy już te elementy potrzebujemy narzędzia, które przygotuje pendriva jako nośnik. Polecam Rufusa dla użytkowników Windowsa oraz UUByte Software na MacOS. Nie są to jednak jedyne opcje i warto poszukać czy aktualnie nie wyszły nowsze, lepsze narzędzia.\\\\Windows\\\\Rufus: \url{https://rufus.ie/}\\ YUMI: \url{https://www.pendrivelinux.com/yumi-multiboot-usb-creator/}\\\\MacOS\\\\\ UUByte Software: \url{https://www.uubyte.com/download/uubyte-iso-editor.dmg}\\Disk Utility - The Default ISO Buner (narzędzie wbudowane, polecane na starych urządzeniach.)\\\\\\ Teraz gdy masz masz wszytsko co potrzebne, postępuj zgodnie z instrukcją na stronie lub po prostu dodaj ISO i wybierz domyślne ustawienia. Jeśli posiadasz już odpowiednio przygotowanego pendriva przejdzmy do następnego etapu.\\\\ 
+Aby móc zainstalować system operacyjny na komputerze potrzebujemy urządzenia będącego nośnikiem obrazu takiego systemu. Do tego potrzebujemy pendriva conajmniej 8GB oraz obrazu systemu w postaci ISO. Taki można pobrać na stronach twórców w zakładce Downloads. Gdy mamy już te elementy potrzebujemy narzędzia, które przygotuje pendriva jako nośnik. Polecam Rufusa dla użytkowników Windowsa oraz UUByte Software na MacOS. Nie są to jednak jedyne opcje i warto poszukać czy aktualnie nie wyszły nowsze, lepsze narzędzia.\\\\Windows\\\\Rufus: \url{https://rufus.ie/}\\ YUMI: \url{https://www.pendrivelinux.com/yumi-multiboot-usb-creator/}\\\\MacOS\\\\\ UUByte Software: \url{https://www.uubyte.com/download/uubyte-iso-editor.dmg}\\Disk Utility - The Default ISO Buner (narzędzie wbudowane, polecane na starych urządzeniach.)\\\\\\ Teraz gdy masz masz wszytsko co potrzebne, postępuj zgodnie z instrukcją na stronie lub po prostu dodaj ISO i wybierz domyślne ustawienia. Jeśli posiadasz już odpowiednio przygotowanego pendriva przejdzmy do następnego etapu.\\\\
+		
+		\subsection{Instalacja}
+		
+Przedstawię tutaj przykładową instalację Linuxa Manjaro w najnowszej dla mnie wersji. Wiele elementów bedzie niezmienna w przypadku wiekszości dystrybucji. Jednak jeśli nie jesteś pewien swoich umiejętności adaptacji zachęcam do poszukanie w internecie poradników przystosowanych do twoich potrzeb.
+
+\begin{enumerate}
+\item \textbf{Wybór urządzenia do rozruchu.}\par
+Po włożeniu pendriva do komputera, aby go wybrać, trzeba tą maszynę uruchomić ponownie i podczas uruchamiania klikać przycisk F9, F10 lub F12 zależnie od producenta. Taką informację łatwo znaleźć szukając frazy "boot key [nazwa producenta lub model]". Gdy już uda nam się przejść do manu wyboru, wybieramy nasz pendrive i czekamy aż obraz się załaduje.\\
+
+\includegraphics[width=0.6\textwidth, center]{manjaro_install1.png}
+
+\item \textbf{Live USB}
+W tym momencie jesteśmy w środku środowiska instalacyjnego. Możemy tu sprawdzić jak wizualnie będzie wyglądał system, jakie będziemy mieli opcje konfiguracji czy też jak nam się używa taki interfejs. Gdy już skończysz oględziny i uznamy, że chcemy kontynuować wybieramy instalator z pulpitu i przechodzimy dalej.
+
+\includegraphics[width=0.6\textwidth, center]{manjaro_install2.png}
+
+\item 
+\end{enumerate}
+ 
 	
 	\section{Nauka obsługi systemu oraz dobre nawyki}
 	
