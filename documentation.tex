@@ -52,7 +52,7 @@ Ta dokumentacja ma właśnie na celu skierowanie światła na alternatywę w pos
 Dokumentacja stworzona jest dla osób lekko lub średnio zaawansowanych w technologiach informatycznych. Będzie zawierać opisy technologii, zagadnień i terminów dotyczących procesu migracji i samych systemów operacyjnych. Część rozdziałów jest przystosowana do samodzielnej implementacji. Poniżej przedstawiam metodyke odczytywania treści, ze względu na stylistykę:
 \begin{itemize}
 \item \textbf{Pogrubione zostaną ważne pojęcia, które warto zapamiętać}
-\item \textit{Kursywą zostaną zapisane cytaty z dokumentacji twórców lub forów społeczności}
+\item \textsl{Kursywą zostaną zapisane cytaty z dokumentacji twórców lub forów społeczności}
 \item \underline{Podkreślone zostaną słowa grające kluczową rolę w zrozumieniu zagadnienia}
 \end{itemize}
 
@@ -250,18 +250,76 @@ Aby skorzytać z systemu potrzebujemy konta umożliwiającego dostęp do niego. 
 
 \includegraphics[width=0.95\textwidth, center]{manjaro_install7.png}\\\\\\
 
-\item \textbf{Dodatkowe opcjef} \par
-Aby upewnić się, że czas systemowy jest taki sam jak czas na twoim zegarku musimy ustawić strefę czasową dla servera NTP.\\
+\item \textbf{Dodatkowe opcje} \par
+Różne dystrybucje posiadają różne dodatkowe opcje poprawiające wrażenia zaraz po instalacji. Głównie dotyczą wyboru pakietów aplikacji oraz konfiguracji serwisów.\\
 
 \includegraphics[width=0.95\textwidth, center]{manjaro_install8.png}\\\\\\
 
 
+
+
+\item \textbf{Podsumowanie} \par
+Tutaj upewnij się, że wszystkie elementy instalcji są takie same jak wybrany wcześniej. Po uruchomiueniu instalatora nie będzie można dokonać żadnych zmian. Wiąże się to też z utratą danych na dysku wiec upewnij się, że masz kopię zapasową plików ważnych dla ciebie. Jeśli jednak po instalcji okaże się, że wybrana opcja była inna niż zamierzana, a dotyczy ona samego systemu operacyjnego to po prostu uruchom instalator ponownie, tym razem wybierając odpowiednio.\\
+
+\includegraphics[width=0.9\textwidth, center]{manjaro_install11.png}\\\\
+
+\item \textbf{Zakończenie} \par
+Gdy już udało ci się poprawnie zainstalować Linuxa musisz uruchomić komputer ponownie, żeby móc korzytać z nowego systemu. Pamiętaj, że przed uruchomieniem się komputera warto wyjąć pendriva. Ułatwia to maszynie rozpoznanie dysku zawierającego system.\\
+
+\includegraphics[width=0.9\textwidth, center]{manjaro_install13.png}\\\\\\
+
 \end{enumerate}
  
-	
+\subsection{Konfiguracja poinstalacyjna}	
+
+Nie każda dystrybucja jest gotowa do użytku zaraz po zainstalowaniu, a nawet te które są wciąż posiadają swoje mankamenty i małe rzeczy poprawiające wrażenia. Aby znaleźć listę takich rzeczy po prostu wyszukaj "[twoja dystrybucja] post install". Jednak jeśli nie chcesz marnować czasu na szykanie informacji przedstawiam tutaj parę najważniejszych ustawień wartych uwagi.
+
+\begin{enumerate}
+
+\item \textbf{Zaktualizuj system} \par Aby mieć pewność, że system jest w swojej najnowszej wersji warto zaraz po instalacji wykonać sprawdzenie aktualizacji przy pomocy wbudowanego programu. Możesz także wpisać komendy wykonujące wszystko za ciebie
+\begin{itemize}
+\item \textbf{Rodzina Debiana i Ubuntu} (menager pakietów APT) - \textsl{\underline{sudo apt update \&\& sudo apt upgrade -y}}
+\item \textbf{Arch oraz Manjaro} (menager pakietów Pacman) - \textsl{\underline{sudo pacman -Syyu}}\\
+\end{itemize}
+
+\item \textbf{Zainstaluj sterowniki}\par Upewnij się, że wszystkie sterowniki są zainstalowane w swojej najnowszej wersji. Ich brak może wiązać się z dużymi problemami z konkretnym urządzeniem. Zapewnia to też najlepszą wydajność i stabilność.\\
+
+\item \textbf{Zainstaluj kodeki multimedialne} Aby móc odtwarzać najróżniejsze formaty wideo i audio warto zainstalować kodeki odpowiadające za ich przetwarzanie. Można tego dokonać tą komendą choć na twoim systemie może się różnić:
+\begin{itemize}
+\item \textsl{\underline{sudo apt-get install ubuntu-restricted-extras}}\\
+\end{itemize}
+
+\item \textbf{Zarządzanie baterią} \par Najważniejsza opcja dla użytkowników laptopów to zestaw narędzi do zarządzania energią. Pakiet najbardziej rozbudowany i naczęściej używany to \textbf{TLP}. Pozwala znacząco poprawić żywotność laptopa oraz monitorować pobór mocy. Można go zainstalować komendą:
+\begin{itemize}
+\item \textsl{\underline{sudo apt install tlp tlp-rdw \&\& sudo tlp start}}\par
+\end{itemize}
+Aby zapoznać się z wszystkimi aspektami tego usprawnienia warto przeczytać dokumentację twórców:\\\url{https://linrunner.de/tlp/introduction.html}\\
+
+\item \textbf{Zmniejszenie preferencji użycia pliku wymiany}\par Jeśli twoja maszyna ma powyżej 4 GB ramu to może się okazać, że system nie jest tak szybki jak mógłby być. Związane jest to z względnie agresywnym ustawienium użycia pliku wymiany zamiast pamięci RAM. Aby zapewnić szybsze działanie wystarczy zmienić wartość tej preferecji w plikach konfiguracyjnych takimi komendami:
+\begin{itemize}
+\item \textsl{\underline{sudo sysctl vm.swappiness=10}}\\\\\\\\
+\end{itemize}
+
+\end{enumerate}
+
 	\section{Nauka obsługi systemu oraz dobre nawyki}
 	
+
+	
 \chapter{Aplikacje i środowiska alternatywne}
+
+VLC – media player for videos
+GIMP – Photoshop alternative for Linux
+Pinta – Paint alternative in Linux
+Calibre – eBook management tool
+Chromium – Open Source web browser
+Kazam – Screen recorder tool
+Gdebi – Lightweight package installer for .deb packages
+Spotify – For streaming music
+Skype – For video messaging
+Kdenlive – Video editor for Linux
+Atom – Code editor for programming
+Android Studio –  For Android app development
 
 	\section{Biurowe}
 	
