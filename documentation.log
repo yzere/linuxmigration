@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Debian) (preloaded format=pdflatex 2020.6.9)  22 JUN 2020 23:59
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Debian) (preloaded format=pdflatex 2020.6.9)  25 JUN 2020 19:49
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -455,13 +455,13 @@ been already used, duplicate ignored
 l.60 \tableofcontents
                       [1
 
-] (./documentation.toc [2
-
-])
+] (./documentation.toc)
 \tf@toc=\write4
 \openout4 = `documentation.toc'.
 
- [3]
+ [2
+
+]
 Rozdzia\l  2.
 
 Underfull \hbox (badness 10000) in paragraph at lines 68--69
@@ -473,9 +473,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 71--72
 
  []
 
-[4
+[3
 
-] [5]
+] [4]
 Rozdzia\l  3.
 
 Underfull \hbox (badness 10000) in paragraph at lines 118--120
@@ -488,7 +488,7 @@ Overfull \hbox (3.0776pt too wide) in paragraph at lines 130--131
 r-fejs Win-dowsa jak i GNOME/MATE
  []
 
-[6
+[5
 
 ]
 Underfull \hbox (badness 10000) in paragraph at lines 138--141
@@ -520,17 +520,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 148--149
 
  []
 
+[6]
+Underfull \hbox (badness 10000) in paragraph at lines 150--151
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 150--151
+
+ []
+
 [7]
-Underfull \hbox (badness 10000) in paragraph at lines 150--151
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 150--151
-
- []
-
-[8]
 Rozdzia\l  4.
 
 Underfull \hbox (badness 10000) in paragraph at lines 158--159
@@ -557,7 +557,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 168--169
 
  []
 
-[9
+[8
 
 ]
 Underfull \hbox (badness 10000) in paragraph at lines 175--177
@@ -628,97 +628,97 @@ Underfull \hbox (badness 10000) in paragraph at lines 180--181
 
  []
 
+[9]
+Underfull \hbox (badness 10000) in paragraph at lines 181--182
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 181--182
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 181--182
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 182--183
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 182--183
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 182--183
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 182--183
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 183--184
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 183--184
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 183--184
+
+ []
+
 [10]
-Underfull \hbox (badness 10000) in paragraph at lines 181--182
+Underfull \hbox (badness 10000) in paragraph at lines 184--185
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 181--182
+Underfull \hbox (badness 10000) in paragraph at lines 184--185
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 181--182
+Underfull \hbox (badness 10000) in paragraph at lines 184--185
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 182--183
+Underfull \hbox (badness 10000) in paragraph at lines 184--185
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 182--183
+Underfull \hbox (badness 10000) in paragraph at lines 187--188
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 182--183
+Underfull \hbox (badness 10000) in paragraph at lines 187--188
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 182--183
+Underfull \hbox (badness 10000) in paragraph at lines 187--188
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 183--184
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 183--184
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 183--184
+Underfull \hbox (badness 10000) in paragraph at lines 187--188
 
  []
 
 [11]
-Underfull \hbox (badness 10000) in paragraph at lines 184--185
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 184--185
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 184--185
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 184--185
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 187--188
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 187--188
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 187--188
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 187--188
-
- []
-
-[12]
 Rozdzia\l  5.
 
 Underfull \hbox (badness 10000) in paragraph at lines 199--200
@@ -765,14 +765,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 205--206
 
  []
 
-[13
+[12
 
 ]
 Underfull \hbox (badness 10000) in paragraph at lines 213--214
 
  []
 
-<./media/manjaro_install1.png, id=284, 1023.825pt x 764.8575pt>
+<./media/manjaro_install1.png, id=270, 1023.825pt x 764.8575pt>
 File: ./media/manjaro_install1.png Graphic file (type png)
 <use ./media/manjaro_install1.png>
 Package pdftex.def Info: ./media/manjaro_install1.png  used on input line 215.
@@ -782,17 +782,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 218--219
 
  []
 
-<./media/manjaro_install2.png, id=285, 1023.825pt x 761.84625pt>
+<./media/manjaro_install2.png, id=271, 1023.825pt x 761.84625pt>
 File: ./media/manjaro_install2.png Graphic file (type png)
 <use ./media/manjaro_install2.png>
 Package pdftex.def Info: ./media/manjaro_install2.png  used on input line 220.
 (pdftex.def)             Requested size: 318.04524pt x 236.65814pt.
-[14 <./media/manjaro_install1.png> <./media/manjaro_install2.png>]
+[13 <./media/manjaro_install1.png> <./media/manjaro_install2.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 225--226
 
  []
 
-<./media/manjaro_install3.png, id=293, 1028.84375pt x 590.205pt>
+<./media/manjaro_install3.png, id=278, 1028.84375pt x 590.205pt>
 File: ./media/manjaro_install3.png Graphic file (type png)
 <use ./media/manjaro_install3.png>
 Package pdftex.def Info: ./media/manjaro_install3.png  used on input line 227.
@@ -817,7 +817,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 230--231
 
  []
 
-<./media/manjaro_install4.png, id=294, 1025.8325pt x 589.20125pt>
+<./media/manjaro_install4.png, id=279, 1025.8325pt x 589.20125pt>
 File: ./media/manjaro_install4.png Graphic file (type png)
 <use ./media/manjaro_install4.png>
 Package pdftex.def Info: ./media/manjaro_install4.png  used on input line 232.
@@ -837,12 +837,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 232--233
 
  []
 
-[15 <./media/manjaro_install3.png> <./media/manjaro_install4.png>]
+[14 <./media/manjaro_install3.png> <./media/manjaro_install4.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 237--238
 
  []
 
-<./media/manjaro_install5.png, id=301, 1030.85126pt x 587.19376pt>
+<./media/manjaro_install5.png, id=286, 1030.85126pt x 587.19376pt>
 File: ./media/manjaro_install5.png Graphic file (type png)
 <use ./media/manjaro_install5.png>
 Package pdftex.def Info: ./media/manjaro_install5.png  used on input line 239.
@@ -867,7 +867,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 242--243
 
  []
 
-<./media/manjaro_install6.png, id=302, 1028.84375pt x 587.19376pt>
+<./media/manjaro_install6.png, id=287, 1028.84375pt x 587.19376pt>
 File: ./media/manjaro_install6.png Graphic file (type png)
 <use ./media/manjaro_install6.png>
 Package pdftex.def Info: ./media/manjaro_install6.png  used on input line 244.
@@ -887,12 +887,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 244--245
 
  []
 
-[16 <./media/manjaro_install5.png> <./media/manjaro_install6.png>]
+[15 <./media/manjaro_install5.png> <./media/manjaro_install6.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 249--250
 
  []
 
-<./media/manjaro_install7.png, id=309, 1031.855pt x 583.17876pt>
+<./media/manjaro_install7.png, id=295, 1031.855pt x 583.17876pt>
 File: ./media/manjaro_install7.png Graphic file (type png)
 <use ./media/manjaro_install7.png>
 Package pdftex.def Info: ./media/manjaro_install7.png  used on input line 251.
@@ -917,7 +917,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 254--255
 
  []
 
-<./media/manjaro_install8.png, id=310, 1026.83624pt x 587.19376pt>
+<./media/manjaro_install8.png, id=296, 1026.83624pt x 587.19376pt>
 File: ./media/manjaro_install8.png Graphic file (type png)
 <use ./media/manjaro_install8.png>
 Package pdftex.def Info: ./media/manjaro_install8.png  used on input line 256.
@@ -937,12 +937,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 256--257
 
  []
 
-[17 <./media/manjaro_install7.png> <./media/manjaro_install8.png>]
+[16 <./media/manjaro_install7.png> <./media/manjaro_install8.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 262--263
 
  []
 
-<./media/manjaro_install11.png, id=317, 1029.8475pt x 586.19pt>
+<./media/manjaro_install11.png, id=303, 1029.8475pt x 586.19pt>
 File: ./media/manjaro_install11.png Graphic file (type png)
 <use ./media/manjaro_install11.png>
 Package pdftex.def Info: ./media/manjaro_install11.png  used on input line 264.
@@ -963,7 +963,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 267--268
 
  []
 
-<./media/manjaro_install13.png, id=318, 1027.84pt x 587.19376pt>
+<./media/manjaro_install13.png, id=304, 1027.84pt x 587.19376pt>
 File: ./media/manjaro_install13.png Graphic file (type png)
 <use ./media/manjaro_install13.png>
 Package pdftex.def Info: ./media/manjaro_install13.png  used on input line 269.
@@ -984,7 +984,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 269--270
 
  []
 
-[18 <./media/manjaro_install11.png> <./media/manjaro_install13.png>]
+[17 <./media/manjaro_install11.png> <./media/manjaro_install13.png>]
 Overfull \hbox (55.99951pt too wide) in paragraph at lines 281--282
 []\T1/cmr/bx/n/10 Rodzina De-biana i Ubuntu \T1/cmr/m/n/10 (me-na-ger pa-kie-tó
 w APT) - $[]$ 
@@ -1030,54 +1030,79 @@ Underfull \hbox (badness 10000) in paragraph at lines 300--301
 
  []
 
-[19] [20]
+[18]
+Underfull \hbox (badness 10000) in paragraph at lines 309--310
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 332--333
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 332--333
+
+ []
+
+[19]
 Rozdzia\l  6.
-[21
+
+Underfull \hbox (badness 10000) in paragraph at lines 341--342
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 343--344
+
+ []
+
+[20
 
 ]
 Rozdzia\l  7.
-[22
+[21
 
 ]
 Rozdzia\l  8.
-[23
+[22
 
 ]
 Rozdzia\l  9.
-[24
+[23
 
 ]
 Rozdzia\l  10.
 
-Overfull \hbox (12.74937pt too wide) in paragraph at lines 351--351
+Overfull \hbox (12.74937pt too wide) in paragraph at lines 389--389
 |[]\T1/cmr/m/n/20.74 Dodatkowe ma-te-riaªy me-ry-to-ryczne do wgl¡du
  []
 
-[25
+[24
 
 ]
 Rozdzia\l  11.
-[26
+[25
 
 ]
 Rozdzia\l  12.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 356.
-[27
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 394.
+[26
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 356.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 394.
  (./documentation.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 356.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 356.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 394.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 394.
 Package rerunfilecheck Info: File `documentation.out' has not changed.
-(rerunfilecheck)             Checksum: EE1DDDCC141FA1D1FB23B7A28DAB5520;2316.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 356.
+(rerunfilecheck)             Checksum: 6E5BEB6947CA5AA5AE729D8930B0E729;2201.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 394.
  ) 
 Here is how much of TeX's memory you used:
- 8294 strings out of 482348
- 125258 string characters out of 5946299
+ 8292 strings out of 482348
+ 125224 string characters out of 5946299
  409525 words of memory out of 5000000
- 23809 multiletter control sequences out of 15000+600000
+ 23807 multiletter control sequences out of 15000+600000
  546318 words of font info for 61 fonts, out of 8000000 for 9000
  56 hyphenation exceptions out of 8191
  37i,6n,70p,1700b,452s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1092,10 +1117,10 @@ pk> </home/yzere/.texlive2020/texmf-var/fonts/pk/ljfour/jknappen/ec/ectt1000.60
 074.600pk> </home/yzere/.texlive2020/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm
 1200.600pk> </home/yzere/.texlive2020/texmf-var/fonts/pk/ljfour/jknappen/ec/ecr
 m2488.600pk>
-Output written on documentation.pdf (28 pages, 1731332 bytes).
+Output written on documentation.pdf (27 pages, 1735126 bytes).
 PDF statistics:
- 838 PDF objects out of 1000 (max. 8388607)
- 380 compressed objects within 4 object streams
+ 841 PDF objects out of 1000 (max. 8388607)
+ 382 compressed objects within 4 object streams
  88 named destinations out of 1000 (max. 500000)
- 339 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 323 words of extra memory for PDF output out of 10000 (max. 10000000)
 
