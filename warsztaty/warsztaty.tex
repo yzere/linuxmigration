@@ -1,0 +1,90 @@
+\documentclass[10pt,a4paper]{article}
+
+\usepackage[T1]{fontenc}
+\usepackage[polish]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\usepackage[export]{adjustbox}
+
+\graphicspath{ {./media/} }
+
+\usepackage[margin=1.2in]{geometry}
+
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=black,
+    filecolor=magenta,      
+    urlcolor=blue,
+}
+
+\usepackage{amsfonts}
+\usepackage{titlesec}
+
+\titleformat{\chapter}[hang] 
+{\normalfont\huge\bfseries}{\chaptertitlename\ \thechapter:}{1em}{} 
+\titleformat*{\section}{\huge}
+\begin{document}
+
+\title{\Huge Warsztaty wprowadzające do systemu operacyjnego Linux}
+\author{Maciej Tracz \\\\Technikum Mechatroniczne nr 1 w Warszawie}
+\date{Rok 2020}
+\maketitle
+
+\textbf{Dokumentacja wymaga pełnego przeczytania przed realizacją warsztatów.}
+
+\tableofcontents
+
+\newpage
+
+\section{Podstawy}
+
+\textbf{Czas trwania wrasztatów:} 60-120 minut (zależy od poziomu grupy oraz ilości wykonanych zadań)\\\\
+\textbf{Poziom trudności:} Początkujący i osoby mało-zaawansowane\\\\
+
+\textbf{Wymagania sprzętowe:} \\\\ Osoby uczestniczące muszą mieć możliwość
+\begin{enumerate}
+\item tworzenia maszyn wirtualnych
+\item pobrania ISO docelowego systemu operacyjnego\\
+\end{enumerate}
+
+\textbf{Początek warsztatów:}
+\begin{enumerate}
+\item Osoba prowadząca powinna przedstawić wszystkim uczesnikom kopię dokumentacji migracji na systemy Linux. Pomoże to rozumieć przekazywane treści merytoryczne.
+\item Prowadzący wyjaśnia budowę systemu operacyjnego i pyta uczestników o zrozumienie zagadnienia.
+\item Uczestnicy dostają zadanie przedstawienia najważniejszych różnic między znanymi im systemami operacyjnymi. Jeśli osoby te nie posiadają takiej wiedzy prowadzący powinien zaproponować przejrzenie rozdziału dokumentacji skierowanego temu tematowi.
+\item Prowadzący kończy wstęp i przechodzi do daleszego etapu warsztatów.
+\end{enumerate}
+
+\textbf{Materiały przydatne prowadzącemu} (wycinki z dokumentacji): \\
+
+[...] Ale czym właściwie jest system operacyjny?\\
+
+Jest to oprogramowanie systemowe, które zapewnia kontrolę i komunikację nad podzespołami urządzenia, zasobami systemowymi oraz umożliwia korzystanie z serwisów tworzących środowisko robocze dla urzytkownika.
+
+Składa się on z:
+\begin{itemize}
+\item Jądra systemowego - Służy on do wykonywania i kontrolowania zadań przydzielonych systemowi. Zarząda wszystkimi zasobami maszyny i komunikacją wszystkich elementów jednostki.
+\item Powłoki - zapewnia komunikację między użytkownikiem a systemem operacyjnym
+
+\begin{itemize}
+\item Tekstowe - tak zwane 'terminale'. Pozwalają za pomocą komend zarządzać zasobami i wykonywać operacje
+\item Graficzne(GUI) - interfejsy pozwalające użytkownikowi zobaczyć zasoby w bardziej przystępnej formie. Wspierają operacje myszką i ograniczają potrzebę znania komend do minimum.
+\end{itemize}
+
+\item Systemu plików - pozwala zapewnić dostęp i stworzyć strukturę plików dla urzytkownika. Dostarcza zabezpieczenia prywatności oraz szyfrowanie jeśli odpowiednio dobrane i skonfigurowane.
+\item Aplikacje wbudowane - zestaw aplikacji zawartych w obrazie instalowanego systemu. To one dostarczają możliwości Out-Of-The-Box, pozwalające używać komputera już przy pierwszym logowaniu. Ten zestaw zależy zupełnie od twórców.
+\end{itemize}
+	
+Ważnym jest tu zauważenie, że w przeciwieństwie do Windowsa i MacOS, które są jednolitymi systemami, Linux jest jądrem. Oznacza to w praktyce, że referując do Systemu operacyjnego linux mówimy o jego dystrybucjach, o czym więcej w późniejszych rozdziałach. [...]
+
+\section{Przygotowanie}
+
+Miejsce prowadzenia warsztatów: Pracownia komputerowa lub online \\\\
+
+
+\section{Ćwiczenia}
+
+\section{Dodatkowe materiały}
+
+\end{document}
