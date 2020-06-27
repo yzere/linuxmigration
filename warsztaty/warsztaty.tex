@@ -26,7 +26,7 @@
 \titleformat*{\section}{\huge}
 \begin{document}
 
-\title{\Huge Warsztaty wprowadzające do systemu operacyjnego Linux}
+\title{\Huge Warsztaty wprowadzające do obsługi systemu operacyjnego Linux}
 \author{Maciej Tracz \\\\Technikum Mechatroniczne nr 1 w Warszawie}
 \date{Rok 2020}
 \maketitle
@@ -81,10 +81,143 @@ Ważnym jest tu zauważenie, że w przeciwieństwie do Windowsa i MacOS, które 
 \section{Przygotowanie}
 
 Miejsce prowadzenia warsztatów: Pracownia komputerowa lub online \\\\
+Każdy uczestnik musi mieć dostęp do komputera z możliwością wirtualizacji.\\
+Każdy uczestnik musi mieć zainstalowany program do wirtualizacji. Polecane:
+\begin{itemize}
+\item VirtualBox
+\item VMWare Workstation Player
+\item Hyper-V (Na Windows Pro oraz Enterprise)\\\\
+\end{itemize}
 
+Przygotowanie maszyn na warsztaty(w pracowni wykonuje się to przed zajęciami):
+\begin{enumerate}
+\item Prowadzący upewnia się, że każdy uczesnik posiada zainstalowane oprogramowanie do wirtualizacji.
+\item Jeśli któryś z uczestników ma problemy z taką instalacją, prowadzący stara się pomóc takiej osobie aby mogła brać pełny udział w warsztatach.
+\item Prowadzący wybiera ISO na którym będą prowadzone zajęcia. Zaleca się stosowanie popularnych i prostych dystrybucji, aby uniknąć wszelkich problemów.
+\begin{itemize}
+\item Ubuntu 20.04 lub nowsze
+\item Linux Mint Cinnamon w najnowszej wersji
+\item Debian 10 lub nowszy (przy wykluczeniu zadań obejmujących interfejs graficzny)
+\item Systemu bazujące na archu oraz inne różniące się składnią wymagają własnej korekcji zadań.
+\end{itemize}
+\item \textbf{Ważne!} Osoby uczestniczące w warsztatach  online muszą pobrać wybrane przez prowadzącego ISO przed zajęciami z względu na różnice w prędkości łącza między lokacjami.
+\item Jeżeli warsztaty odbywają się w pracowni to w razie możliwości moża utworzyć dysk wirtualny z zainstalowanym systemem i rozdystrybuować go pomiędzy wszystkie używane maszyny. Zaoszczędzi to czas zarówno przed jak i podczas zajęć.
+\end{enumerate}
+\newpage
 
 \section{Ćwiczenia}
 
+Ćwiczenia można zacząć gdy wszystkie osoby uczestniczące będą miały dostęp do zainstalowanego systemu i będą gotowe do rozpoczęcia pracy.
+
+\subsection{Zadania wstępne}
+Na początku pozwalamy uczestnikom samemu poeksperymentować z systemem. Da im to czas przyzwyczaić się do wyglądu oraz rozbudzić względną ciekawość. Na tym etapie prowadzący może wykazać się własną intencją i zadać proste ćwiczenia konfiguracji pulpitu lub innych ustawień.\\\\
+Gdy uczestnicy skończą swobodną interakcję z maszynami prowadzący może przedstawić im podstawy systemu:
+
+\begin{enumerate}
+\item Prowadzący przedstawia podstawowe komendy konsolowe potrzebne do wykonania zadań:
+\begin{itemize}
+\item \textbf{\underline{echo}} - pozwala wypisać tekst w konsoli
+\item \textbf{\underline{man}} - otwiera instrukcję obsługi komendy
+\item \textbf{\underline{ls}} - listuje wszystkie pliki i foldery w aktualnym katalogu
+\item \textbf{\underline{cd}} - ustawia katalog roboczy
+\item \textbf{\underline{cat}} - wypisuje zawartość pliku do konsoli
+\item \textbf{\underline{touch}} - tworzy nowe pliki
+\item \textbf{\underline{useradd}} - tworzy nowego użytkownika
+\item \textbf{\underline{su}}- loguje się do nowego użytkownika
+\item \textbf{\underline{passwd}} - umożliwia zmianę hasła użytkownika. Wymaga komendy \textbf{sudo} 
+\item \textbf{\underline{sudo}} - pozwala wykonywać komendy administratora. Tak zwany super user.\\\\
+\end{itemize}
+
+
+\item Po przestawieniu komend prowadzący prosi uczestników o wykonanie poszczególnych zadań. Uczestnicy mają korzystać z instrukcji obsługi \textbf{\underline{man [twoja\_ komenda]}} lub dopisując \textbf{-h} / \textbf{--help} aby uzyskać pomoc w zapisie.\\ \end{enumerate}
+Zadania:
+\begin{enumerate}
+\item Wypisz "hello world" do terminalu.
+\item Sprawdz możliwe operatory i opcje komendy \textbf{\underline{echo}}.
+\item Wyświetl wszystkie pliki aktualnego katalogu.
+\item Zmień katalog roboczy na /Desktop/.
+\item Wyświetl pliki na pulpicie. Utwórz na nim folder Raport a w nim plik tekstowy Raport.txt przy pomocy interfejsu graficznego.
+\item W pliku raport.txt zapisz wybrane przez ciebie zdanie.
+\item W terminalu wejdz do utworzonego folderu i wypisz w terminalu zawartość pliku raport.txt.
+\item Przez terminal swórz plik wyniki.txt
+\item Dodaj użytkownika Janek używając praw administracyjnych.
+\item Ustaw Jankowi hasło używając praw administracyjnych.
+\item Zaloguj się na konto janka w terminalu.
+
+\end{enumerate}
+
+\subsection{Zadania dopełniające}
+
+\begin{enumerate}
+\item Prowadzący przedstawia podstawowe komendy konsolowe potrzebne do wykonania zadań:
+\begin{itemize}
+\item \textbf{\underline{Operatory}}
+\begin{itemize}
+\item \textgreater - wypisuje wynik komendy do pliku. Nadpisuje jeśli plik zawiera już dane.
+\item \textgreater \textgreater - wypisuje wynik komendy do pliku. Dodaje treść do pliku jeśli już jakąś zawiera.
+\item \& - pozwala ominąć czas wykonywania komendy i przejść od razu do terminalu gdy komenda działa w tle.
+\item \& \& - uruchamia komendy po sobie, gdy każda ukończy swoje działanie. Wymaga poprawnego działanie każdej komendy.
+\item \$ - deklaruje zmienne środowiskowe.
+\item \textbar - pozwala zastosować wynik pierwszej komendy jako dane wejściowe dla drugiej.
+\end{itemize}
+\item \textbf{\underline{mkdir}} - tworzy katalogi
+\item \textbf{\underline{mv}} - przenosi pliki lub katalogi.
+\item \textbf{\underline{cp}} - kopiuje pliki lub katalogi.
+\item \textbf{\underline{rm}} - usuwa pliki lub katalogi.
+\item \textbf{\underline{chmod}} - definiuje uprawnienia pliku.
+\item \textbf{\underline{chown}} - definiuje prawa własnościowe pliku.
+\item \textbf{\underline{find}} - wyszukuje plików i katalogów o konkretnej nazwie w katalogu roboczym i jego podkatalogach.
+\item \textbf{\underline{grep}} - wyszukuje konkretnego tekstu w pliku lub danych wejściowych z poprzedniej komendy.
+\item \textbf{\underline{vi}} - konsolowy edytor plików. Najważniejsze informacje o nim to:
+\begin{itemize}
+\item Kliknij \textbf{I} aby wejść w tryb wprowadzania danych
+\item Po pliku poruszaj się strzałkami.
+\item Po zakończeniu wprowadzania danych kliknij guzik \textbf{ESC} aby wyjść z trybu wprowadzania.
+\item Kliknij guzik \textbf{:} aby zacząć wykonywać operacje na pliku.
+\begin{itemize}
+\item w - zapisuje dane
+\item wq - zapisuje dane i wychodzi z pliku
+\item q! - usuwa wszystkie zmiany
+\end{itemize}
+\end{itemize}
+
+\end{itemize}
+
+\item Po przestawieniu komend prowadzący prosi uczestników o wykonanie poszczególnych zadań. Uczestnicy mają korzystać z instrukcji obsługi \textbf{\underline{man [twoja\_ komenda]}} lub dopisując \textbf{-h} / \textbf{--help} aby uzyskać pomoc w zapisie.\\ 
+\end{enumerate}
+Zadania tylko przy użyciu terminalu:
+\begin{enumerate}
+\item Wyczyść katalogi robocze. (Ta sama komenda co do ich istawiania)
+\item Utwórz na koncie Janka folder Raporty.
+\item W katalogu raporty utwórz dwa foldery Maj oraz Czerwiec.
+\item W katalogu Maj utwórz pusty plik raport1.txt
+\item Wypisz do pliku raport1.txt zawartość foldera /bin/.
+\item Wypisz zawartość tego pliku.
+\item Przenieś plik raport1.txt do folderu Czerwiec.
+\item W folderze Maj swórz plik raport2.txt i wypisz do niego zawartość foldera /tmp/.
+\item Skopiuj ten plik do katalogu Czerwiec.
+\item Usuń z foldera Maj plik raport2.txt.
+\item Wejdz na stronę github.com/yzere/bash-basics/ i przepisz zawartość pliku hello.sh do własnego pliku hello.sh stworzonego w folderze Maj.
+\item Dodaj możliwość uruchamiania pliku przy pomocy argumentu +x.
+\item Uruchom plik dzieki składni ./twój\_ plik
+\item Znajdz wszystkie foldery /tmp.
+\item Znajdz wszystkie foldery /tmp zawierające literę "a".
+\item Do pliku hello.sh dodaj nową linię kodu z komendą echo i wybranym zdaniem.
+\item Zapisz i wyjdz z pliku.
+\item Uruchom go ponownie.
+\end{enumerate}
+
+
 \section{Dodatkowe materiały}
+
+Ćwiczenia tu przedstawione można poszerzyć o tworzenie skryptów wykonujących poprzednie ćwiczenia automatyczni.\\ \par  Na bazie dokumenatcji można poprowadzić instalację oraz konfigurację kontenerów wraz z uruchomieniem serwera multimedialnego. Jest to jednak proces zaawansowany i może wyniknąć wieloma błędami gdy uczestnicy nie przyswoili jeszcze tak dobrze podstaw Linuxa.\\ \par Ćwiczenia można poszerzyć o wykorzytanie publicznych repozytoriów na github.com i naukę dodawania oraz instalowania pakietów. Polecane projekty to:
+\begin{itemize}
+\item Emulacja pakietu Microsoft Office na Linuxie.
+\item Wykorzystanie projektu Sherlock do wyszukiwania kont o konkretnej nazwie.
+\item Uruchamianie programów w kontenerach.
+\item Instalacja serwera Minecraft Bukkit lub Vanila.
+\item Skorzystanie z zasobów strony tryhackme.com do poznania zabezpieczeń i urzycia narzędzi na systemach Linux.\\\\
+\end{itemize}
+
 
 \end{document}
