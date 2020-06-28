@@ -60,7 +60,7 @@ Dokumentacja stworzona jest dla osób lekko lub średnio zaawansowanych w techno
 \tableofcontents
 \newpage
 
-\chapter{Co to linux}
+\chapter{Czym jest linux?}
 
 	\section{Systemy operacyjne - rodzaje, budowa, cechy}
 
@@ -368,25 +368,101 @@ Przejście na inny system operacyjny może być wymagające nawet dla osób śre
 	
 \chapter{Automatyzacja zadań}
 
-	\section{Metody automatyzacji}
+	\section{Skrypty}
 	
-	\section{Przykładowe programy i źródła}
+Najważniejsza gałąź automatyzacji dostępna dla zwykłego użytkownika to skrypty. Wraz z
+rozwojem interfejsów programowania aplikacji poszerzyły się zastosowania takich skrytów.
+Pierwotnie ograniczały się one do wykonywania żmudnych operacji systemowych w
+ułamkach sekund. Teraz można łączyć się z stronami internetowymi oraz wielkimi bazami
+danych aby osiągnąć duże rezultaty przy małym wkładzie pracy.\\
+
+Pozwalają wizualizować aktualne dane firmowe z twoimi lokalnymi bazami lub konfigurować
+programy podczas ich instalowania. Umożliwiają wykonywanie powtarzalnych czynności
+przy pomocy jednej komendy.	
+
+\subsection{Tworzenie skryptów}
+
+Skrypty w swojej idei są listą kolejnych komend wprowadzany do terminalu w wydzielonym środowisku zwanym powłoką. Są one wykonywana po sobie, czasami prosząc użytkownika o potwierdzenie działania lub wybranie opcji z możliwych.\\
+Dlatego też skrypty mają formę plików tekstowych uruchamianych w powłoce bash. Jest to osiągane dwoma metodami:
+\begin{itemize}
+\item Dodawanie do pliku rozszerzenia \textbf{.sh}, aby domyślnym programem wykonującym była powłoka. To samo odnosi się do wszystkich innych języków programownia jak Python czy PHP. Podobnymi rozszereniami są stosowane na windowsie \textbf{.bat} oraz \textbf{.ps1}.
+\item Dodawanie na początku skryptu tzw. 'shebang' określającego program interpretujący skrypt. Ma formę \# !/bin/bash, gdzie znaki hasz i wykrzyknik są specyficznie rozpoznawane przez systemu na bazie Unixa. Podobnie jak w poprzednim przykładzie zmiana ścieżki na /bin/bash/python pozwoli interpretować skrypt przez pythona nawet bez odpowiedniego rozszerzenia.\\
+\end{itemize}
+Dobrą praktyką jest zawsze używać obu metod z racji tego, że się nie wykluczają i dokóki nie wejdziesz na bardziej zaawansowany poziom, oszczędzi ci to wiele problemów.\\
+Zatem tworzenia skryptu zaczynami od 3 najważniejszych kroków:
+\begin{enumerate}
+\item Ustawiamy lub tworzymy katalog roboczy - \textbf{\underline{mkdir skrypty \&\&  cd skrypty }}
+\item Tworzymy plik - \textbf{\underline{touch hello.sh}}
+\item Dodajemy możliwość uruchamiania pliku - \textbf{\underline{chmod +x hello.sh}}
+\item Uzupełniamy 'shebang' w pliku - \textbf{\underline{echo "\# !/bin/bash"\textgreater  \textgreater  hello.sh}}
+\item Uruchamiamy plik w edytorze tekstu np. vim - \textbf{\underline{vi hello.sh}}
+\item Po ukończeniu pliku uruchamiamy go - \textbf{\underline{./hello.sh}}\\
+\end{enumerate}
+Przykładowe wykorzystanie zostanie pokazane na końcu działu.
+	\section{Kontenery}
 	
-\chapter{Linux i Gaming?}
-t
-	\section{Problemy z linuxem}
+Młoda gałąź technologi wirtualizacji pozwalająca tworzyć srodowiska wraz z własnymi zasobami wewnątrz systemu operacyjnego. Umożliwa to prostą i szybką separację aplikacji oraz optymalizację ich działania.\\
+
+Konteneryzacja zaczęła być popularna dopiero w 2013 roku gdy na rynku pojawił się docker lecz dopiero w ostatnich latach widzimy wieksze zainteresowaniem tą technologią, co zawdzięczają rozwojowi systemów zarządzania nimi np. Kubernetes.\\
+
+Wraz z klastrami umożliwiają tworzenie wydajnych i stabilnych infrastruktur, a także dostarczają automatyczną naprawę błędów dzieki klastą fail-over.
+
+Ciekawe zastosowanie, które udało mi się stowrzyć łącząc prace paru twórców społeczności ułatwia proces tworzenia serwerów multimedialnych bazujących na \textbf{SteamCMD}. Pozwala on na uruchamianie takich serwerów w oddzielnych kontenerach przy minimalnym wkładzie urzytkownika. Oto co trzeba zrobić:
+\begin{enumerate}
+\item Rozpocznij od stworzenia maszyny wirtualnej na swoim komputerze lub skorzytaj z darmowych środków na platformach 
+\begin{itemize}
+\item \url{https://cloud.google.com/}
+\item \url{https://portal.azure.com/}
+\item \url{https://www.digitalocean.com/}.
+\end{itemize}
+\item Utwórz swój własny obraz Dockera. Pozwoli ci to dobrać wszystkie potrzebne parametry jak i przygotować jego środowisko. Na samym początku polecam odwiedzić bibliotekę społeczności docker.com gdzie znajdziesz wszelkie możliwe obrazy do każdego zastosowania. Samemu skorzystałem z obrazu \url{https://hub.docker.com/r/cm2network/steamcmd}, w którym zmieniłem parę opcji. \\\\
+Obraz taki ma taką formę:\\
+\includegraphics[width=0.7\textwidth, center]{docker.png}
+
+Polecam zajrzenie do opisu twórcy obrazu, którym się wzorowałem gdyż dostarcza on wysoki poziom zrozumienia oraz wyjaśnia jak korzytać z samego dockera. 
+\end{enumerate}
+Aby uruchomić serwer w dockerze, w tym przypadku Do Not Starve Together, wystarczy wykonać te kolejne komendy po zainstalowaniu dockera na swojej maszynie:\\\\
+\includegraphics[width=0.9\textwidth, center]{run.png}\\\\
+póżniejsza konfiguracja wymaga już włąsnego wklądu w sposób ustawiania serwerów multimedialnych. Ważnym jest to, że wystarczy zmienić numer silnika instalowanego w obrazie Dockera, aby zmienić rodzaj instalowanej gry. Pełną listę można znaleźć na stronie \url{https://developer.valvesoftware.com/wiki/Dedicated_Servers_List}
+%\chapter{Linux i Gaming?}
+
+%	\section{Problemy z linuxem}
 	
-	\section{Rozwiązania społeczności}
+%	\section{Rozwiązania społeczności}
 	
 
+	\newpage
 	
 \chapter{Podsumowanie}
 
-	\section{Zalety i wady}
+	Linux jest systemem uniwersalnym i sprawdza się w prawie każdym środowisku jeśli tylko mamy chęć i czas z niego skorzytać. Oferuje stabilność i zaufanie pośród wszystkich zaangażowanych w technologię. Jako najbrzydszy z trójki braci może nie być najpopularniejszy lub najpiekniejszy. Nie świadczy to o jego możliwościach i potędze. To właśnie dzięki standardyzacji systemów informatycznych Linux stał się najlepszą opcją do zarządania serwerami, bazami danych, systemami bezpieczeństwa czy chmurą. Ułatwia życie deweloperom, udostępniając szerokie rozwiązania społeczności i upraszczając do nich dostęp. \\\\ W epoce informacji komputer stał się najpotężniejszym narzędziem, a system operacyjny pośrednikiem. Dobór tych dwóch części pozwala nam komunikować się z światem i tworzyć dla świata w sposób dla nas najwygodniejszy. Bo właśnie wygoda jest dziś najważniejsza. Wiąże się ona z oszczędnością czasu oraz wysiłku. Określa ona dostępność zasobów oraz stopień komplikacji ich uzyskiwania. Jest wyznacznikiem przejrzystości i zadowolenia z używanej maszyny. Więc odpowiedz sobię na pytanie: Co jest wygodne dla Ciebie?\\\\
 	
-	\section{Dodatkowe materiały merytoryczne do wglądu własnego}
+Często nawet nie zdajemy sobie sprawy jak męczą nas pewne aspekty życia. Przyzwyczajamy się z nimi zyć, przyjmując ich wieczność. Lecz czasem trzeba się zatrzymać i zastanowić czy to co robię, jak to robię i czym to robię jest najlepszą opcją z wielu.\\\\ \
+
+Wygoda płynąca z przyzwyczajenia do Windowsa, automatycznej akutalizacji systemu, bezproblemowego dostępu do gier, interfejsu z którym się 'urodziliśmy' wprowadza nas do strefu komfortu. Jednak czasem trzeba ją opuścić by znaleźć nowy kierunek.\\\\
+Tym właśnie jest Linux. Nowym kierunkiem dla tych potrzebujących zmiany. Zmiany najpewniej na lepsze. Zmiany będącej początkiem pięknego związku obfitującego produktywnością i determinacją.\\\\\\
+
+\textbf{Dziękuję za lekture dokumentacji i zapraszam do zapoznania się z programem warsztatów dołączonym do niej pod linkiem:}\\\\\url{https://github.com/yzere/linuxmigrationgithub/raw/master/warsztaty/warsztaty.pdf}
 	
-\chapter{Zakończenie}
 \newpage \newpage
 \chapter{Źródła}
+Poniżej zawieram linki do moich materiałów jak i dodatkowych materiałów merytorycznych z których czerpałem wiadomości.\\\\
+Moje materiały:\\
+\begin{itemize}
+\item Dokumentacja: \url{https://github.com/yzere/linuxmigrationgithub/raw/master/documentation.pdf}
+\item Repozytorium serwera SteamCMD: \url{https://github.com/yzere/steamcmd}
+\item Repozytorium dokumentacji w formacie .tex: \url{https://github.com/yzere/linuxmigrationgithub}
+\item Profil github: \url{https://github.com/yzere}
+\item Prezentacja projektu w formie powerpoint:\url{https://tm1edupl-my.sharepoint.com/:p:/g/personal/maciej_tracz_tm1_edu_pl/EQ6SGFr0i6tBjp_otvNkXncBRsYdWYDT-TY8BZ5NnpZtNg?e=pUWvCA}
+\item Prezentacja projektu w formie strony internetowe aplikacji Sway: \url{https://sway.office.com/EK7qb1KV4ngwyVFe?ref=Link}\\\\
+\end{itemize}
+
+Materiały zewnętrzne wykorzystane w dokumenatcji lub służace do poszerzenia zrozumienia tematu: 
+\begin{itemize}
+\item Ściągawki do pisania skryptów: \url{https://devhints.io/bash}
+\item Obraz docker użyty w repozytorium SteamCMD: \url{https://hub.docker.com/r/cm2network/steamcmd}
+\item Informacje zawarte w otwartej kencyklopedii interentowej Wikipedia: \url{https://en.wikipedia.org/wiki/Linux} oraz wszystkie pochodne tego artykułu.
+\item Pozostałe źródła merytoryczne obejmujące blogi, artykuły społeczności, dokumenatcja oraz prace naukowe: \\
+\url{https://docs.google.com/document/d/1EWPshBZEQyMFVMdl4gyNCKKlQdd0BhUnswrH6BAws68/edit?usp=sharing}
+\end{itemize}
 \end{document}

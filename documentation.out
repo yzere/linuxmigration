@@ -1,7 +1,7 @@
 \BOOKMARK [0][-]{chapter.1}{Wstep}{}% 1
 \BOOKMARK [1][-]{section.1.1}{Om\363wienie tematu}{chapter.1}% 2
 \BOOKMARK [1][-]{section.1.2}{Zanim zaczniesz}{chapter.1}% 3
-\BOOKMARK [0][-]{chapter.2}{Co to linux}{}% 4
+\BOOKMARK [0][-]{chapter.2}{Czym jest linux?}{}% 4
 \BOOKMARK [1][-]{section.2.1}{Systemy operacyjne - rodzaje, budowa, cechy}{chapter.2}% 5
 \BOOKMARK [1][-]{section.2.2}{R\363znice miedzy Linuxem a Windowsem}{chapter.2}% 6
 \BOOKMARK [0][-]{chapter.3}{Korzysci i problemy migracji}{}% 7
@@ -22,13 +22,8 @@
 \BOOKMARK [1][-]{section.6.2}{Tw\363rczosc}{chapter.6}% 22
 \BOOKMARK [1][-]{section.6.3}{Programowanie}{chapter.6}% 23
 \BOOKMARK [0][-]{chapter.7}{Automatyzacja zadan}{}% 24
-\BOOKMARK [1][-]{section.7.1}{Metody automatyzacji}{chapter.7}% 25
-\BOOKMARK [1][-]{section.7.2}{Przyk\233adowe programy i zr\363d\233a}{chapter.7}% 26
-\BOOKMARK [0][-]{chapter.8}{Linux i Gaming?}{}% 27
-\BOOKMARK [1][-]{section.8.1}{Problemy z linuxem}{chapter.8}% 28
-\BOOKMARK [1][-]{section.8.2}{Rozwiazania spo\233ecznosci}{chapter.8}% 29
-\BOOKMARK [0][-]{chapter.9}{Podsumowanie}{}% 30
-\BOOKMARK [1][-]{section.9.1}{Zalety i wady}{chapter.9}% 31
-\BOOKMARK [1][-]{section.9.2}{Dodatkowe materia\233y merytoryczne do wgladu w\233asnego}{chapter.9}% 32
-\BOOKMARK [0][-]{chapter.10}{Zakonczenie}{}% 33
-\BOOKMARK [0][-]{chapter.11}{Zr\363d\233a}{}% 34
+\BOOKMARK [1][-]{section.7.1}{Skrypty}{chapter.7}% 25
+\BOOKMARK [2][-]{subsection.7.1.1}{Tworzenie skrypt\363w}{section.7.1}% 26
+\BOOKMARK [1][-]{section.7.2}{Kontenery}{chapter.7}% 27
+\BOOKMARK [0][-]{chapter.8}{Podsumowanie}{}% 28
+\BOOKMARK [0][-]{chapter.9}{Zr\363d\233a}{}% 29

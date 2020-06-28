@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Debian) (preloaded format=pdflatex 2020.6.9)  27 JUN 2020 14:16
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Debian) (preloaded format=pdflatex 2020.6.9)  28 JUN 2020 22:07
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -772,7 +772,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 212--213
 
  []
 
-<./media/manjaro_install1.png, id=270, 1023.825pt x 764.8575pt>
+<./media/manjaro_install1.png, id=245, 1023.825pt x 764.8575pt>
 File: ./media/manjaro_install1.png Graphic file (type png)
 <use ./media/manjaro_install1.png>
 Package pdftex.def Info: ./media/manjaro_install1.png  used on input line 214.
@@ -782,7 +782,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 217--218
 
  []
 
-<./media/manjaro_install2.png, id=271, 1023.825pt x 761.84625pt>
+<./media/manjaro_install2.png, id=246, 1023.825pt x 761.84625pt>
 File: ./media/manjaro_install2.png Graphic file (type png)
 <use ./media/manjaro_install2.png>
 Package pdftex.def Info: ./media/manjaro_install2.png  used on input line 219.
@@ -792,7 +792,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 224--225
 
  []
 
-<./media/manjaro_install3.png, id=278, 1028.84375pt x 590.205pt>
+<./media/manjaro_install3.png, id=253, 1028.84375pt x 590.205pt>
 File: ./media/manjaro_install3.png Graphic file (type png)
 <use ./media/manjaro_install3.png>
 Package pdftex.def Info: ./media/manjaro_install3.png  used on input line 226.
@@ -817,7 +817,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 229--230
 
  []
 
-<./media/manjaro_install4.png, id=279, 1025.8325pt x 589.20125pt>
+<./media/manjaro_install4.png, id=254, 1025.8325pt x 589.20125pt>
 File: ./media/manjaro_install4.png Graphic file (type png)
 <use ./media/manjaro_install4.png>
 Package pdftex.def Info: ./media/manjaro_install4.png  used on input line 231.
@@ -842,7 +842,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 236--237
 
  []
 
-<./media/manjaro_install5.png, id=286, 1030.85126pt x 587.19376pt>
+<./media/manjaro_install5.png, id=261, 1030.85126pt x 587.19376pt>
 File: ./media/manjaro_install5.png Graphic file (type png)
 <use ./media/manjaro_install5.png>
 Package pdftex.def Info: ./media/manjaro_install5.png  used on input line 238.
@@ -867,7 +867,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 241--242
 
  []
 
-<./media/manjaro_install6.png, id=287, 1028.84375pt x 587.19376pt>
+<./media/manjaro_install6.png, id=262, 1028.84375pt x 587.19376pt>
 File: ./media/manjaro_install6.png Graphic file (type png)
 <use ./media/manjaro_install6.png>
 Package pdftex.def Info: ./media/manjaro_install6.png  used on input line 243.
@@ -892,7 +892,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 248--249
 
  []
 
-<./media/manjaro_install7.png, id=295, 1031.855pt x 583.17876pt>
+<./media/manjaro_install7.png, id=269, 1031.855pt x 583.17876pt>
 File: ./media/manjaro_install7.png Graphic file (type png)
 <use ./media/manjaro_install7.png>
 Package pdftex.def Info: ./media/manjaro_install7.png  used on input line 250.
@@ -917,7 +917,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 253--254
 
  []
 
-<./media/manjaro_install8.png, id=296, 1026.83624pt x 587.19376pt>
+<./media/manjaro_install8.png, id=270, 1026.83624pt x 587.19376pt>
 File: ./media/manjaro_install8.png Graphic file (type png)
 <use ./media/manjaro_install8.png>
 Package pdftex.def Info: ./media/manjaro_install8.png  used on input line 255.
@@ -942,7 +942,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 261--262
 
  []
 
-<./media/manjaro_install11.png, id=303, 1029.8475pt x 586.19pt>
+<./media/manjaro_install11.png, id=277, 1029.8475pt x 586.19pt>
 File: ./media/manjaro_install11.png Graphic file (type png)
 <use ./media/manjaro_install11.png>
 Package pdftex.def Info: ./media/manjaro_install11.png  used on input line 263.
@@ -963,7 +963,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 266--267
 
  []
 
-<./media/manjaro_install13.png, id=304, 1027.84pt x 587.19376pt>
+<./media/manjaro_install13.png, id=278, 1027.84pt x 587.19376pt>
 File: ./media/manjaro_install13.png Graphic file (type png)
 <use ./media/manjaro_install13.png>
 Package pdftex.def Info: ./media/manjaro_install13.png  used on input line 268.
@@ -1076,44 +1076,194 @@ Underfull \hbox (badness 10000) in paragraph at lines 353--354
 
 ] [21]
 Rozdzia\l  7.
+
+Underfull \hbox (badness 10000) in paragraph at lines 373--378
+
+ []
+
+
+Overfull \hbox (38.12924pt too wide) in paragraph at lines 389--390
+\T1/cmr/m/n/10 sys-temu na ba-zie Unixa. Po-dob-nie jak w po-przed-nim przy-kªa
+-dzie zmiana ±cie»ki na /bin/bash/python
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 389--390
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 399--400
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 404--405
+
+ []
+
 [22
 
 ]
+Underfull \hbox (badness 10000) in paragraph at lines 406--407
+
+ []
+
+<./media/docker.png, id=345, 867.24pt x 862.22125pt>
+File: ./media/docker.png Graphic file (type png)
+<use ./media/docker.png>
+Package pdftex.def Info: ./media/docker.png  used on input line 420.
+(pdftex.def)             Requested size: 296.84093pt x 295.1248pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 418--421
+
+ []
+
+[23 <./media/docker.png>]
+<./media/run.png, id=352, 728.7225pt x 161.60374pt>
+File: ./media/run.png Graphic file (type png)
+<use ./media/run.png>
+Package pdftex.def Info: ./media/run.png  used on input line 425.
+(pdftex.def)             Requested size: 381.6517pt x 84.6361pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 424--428
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 424--428
+
+ []
+
+[24 <./media/run.png>]
 Rozdzia\l  8.
-[23
+
+Underfull \hbox (badness 10000) in paragraph at lines 438--439
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 438--439
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 438--439
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 440--441
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 440--441
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 442--444
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 442--444
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 442--444
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 442--444
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 445--446
+
+ []
+
+[25
 
 ]
 Rozdzia\l  9.
 
-Overfull \hbox (3.15561pt too wide) in paragraph at lines 387--387
-|[]\T1/cmr/m/n/20.74 Dodatkowe ma-te-riaªy me-ry-to-ryczne do wgl¡du
+Underfull \hbox (badness 10000) in paragraph at lines 449--451
+
  []
 
-[24
 
-]
-Rozdzia\l  10.
-[25
+Underfull \hbox (badness 10000) in paragraph at lines 449--451
 
-]
-Rozdzia\l  11.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 392.
+ []
+
+
+Overfull \hbox (43.16504pt too wide) in paragraph at lines 452--453
+[]\T1/cmr/m/n/10 Dokumentacja: [][]$\T1/cmtt/m/n/10 https : / / github . com / 
+yzere / linuxmigrationgithub / raw / master / documentation .
+ []
+
+
+Overfull \hbox (33.66736pt too wide) in paragraph at lines 454--455
+[]\T1/cmr/m/n/10 Repozytorium do-ku-men-ta-cji w for-ma-cie .tex: [][]$\T1/cmtt
+/m/n/10 https : / / github . com / yzere / linuxmigrationgithub$[][] 
+ []
+
+
+Overfull \hbox (21.33716pt too wide) in paragraph at lines 456--457
+\T1/cmtt/m/n/10 personal / maciej _ tracz _ tm1 _ edu _ pl / EQ6SGFr0i6tBjp _ o
+tvNkXncBRsYdWYDT-[]TY8BZ5NnpZtNg ?
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 457--458
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 457--458
+
+ []
+
+
+Overfull \hbox (2.0362pt too wide) in paragraph at lines 463--464
+[]\T1/cmr/m/n/10 Obraz do-cker u»yty w re-po-zy-to-rium Ste-amCMD: [][]$\T1/cmt
+t/m/n/10 https : / / hub . docker . com / r / cm2network /
+ []
+
+
+Overfull \hbox (10.92291pt too wide) in paragraph at lines 464--465
+[]\T1/cmr/m/n/10 Informacje za-warte w otwar-tej ken-cy-klo-pe-dii in-te-ren-to
+-wej Wi-ki-pe-dia: [][]$\T1/cmtt/m/n/10 https : / / en . wikipedia .
+ []
+
+
+Overfull \hbox (20.83716pt too wide) in paragraph at lines 465--467
+[][]$\T1/cmtt/m/n/10 https : / / docs . google . com / document / d / 1EWPshBZE
+QyMFVMdl4gyNCKKlQdd0BhUnswrH6BAws68 /
+ []
+
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 468.
 [26
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 392.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 468.
  (./documentation.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 392.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 392.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 468.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 468.
 Package rerunfilecheck Info: File `documentation.out' has not changed.
-(rerunfilecheck)             Checksum: 8113CA4571E93892F8F8B71649C2590C;2206.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 392.
+(rerunfilecheck)             Checksum: F58CB544C7FED97D5CCE189F7AF4B7BC;1841.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 468.
  ) 
 Here is how much of TeX's memory you used:
- 8292 strings out of 482348
- 125222 string characters out of 5946299
+ 8304 strings out of 482348
+ 125416 string characters out of 5946299
  409525 words of memory out of 5000000
- 23807 multiletter control sequences out of 15000+600000
+ 23814 multiletter control sequences out of 15000+600000
  546318 words of font info for 61 fonts, out of 8000000 for 9000
  56 hyphenation exceptions out of 8191
  37i,6n,70p,1700b,452s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1128,10 +1278,10 @@ pk> </home/yzere/.texlive2020/texmf-var/fonts/pk/ljfour/jknappen/ec/ectt1000.60
 074.600pk> </home/yzere/.texlive2020/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm
 1200.600pk> </home/yzere/.texlive2020/texmf-var/fonts/pk/ljfour/jknappen/ec/ecr
 m2488.600pk>
-Output written on documentation.pdf (27 pages, 1737582 bytes).
+Output written on documentation.pdf (27 pages, 1830420 bytes).
 PDF statistics:
- 849 PDF objects out of 1000 (max. 8388607)
- 389 compressed objects within 4 object streams
- 88 named destinations out of 1000 (max. 500000)
- 323 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 898 PDF objects out of 1000 (max. 8388607)
+ 397 compressed objects within 4 object streams
+ 91 named destinations out of 1000 (max. 500000)
+ 293 words of extra memory for PDF output out of 10000 (max. 10000000)
 
