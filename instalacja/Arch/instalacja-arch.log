@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Debian) (preloaded format=pdflatex 2020.8.19)  16 SEP 2020 21:03
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Debian) (preloaded format=pdflatex 2020.8.19)  16 SEP 2020 21:02
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**instalacja-manjaro.tex
-(./instalacja-manjaro.tex
+**instalacja-arch.tex
+(./instalacja-arch.tex
 LaTeX2e <2020-02-02> patch level 5
 L3 programming layer <2020-06-18>
 (/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
@@ -301,8 +301,8 @@ File: l3backend-pdfmode.def 2020-06-23 L3 backend support: PDF mode
 \l__kernel_color_stack_int=\count193
 \l__pdf_internal_box=\box48
 )
-(./instalacja-manjaro.aux)
-\openout1 = `instalacja-manjaro.aux'.
+(./instalacja-arch.aux)
+\openout1 = `instalacja-arch.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 27.
 LaTeX Font Info:    ... okay on input line 27.
@@ -403,9 +403,9 @@ LaTeX Info: Redefining \ref on input line 27.
 LaTeX Info: Redefining \pageref on input line 27.
 LaTeX Info: Redefining \nameref on input line 27.
 
-(./instalacja-manjaro.out) (./instalacja-manjaro.out)
+(./instalacja-arch.out) (./instalacja-arch.out)
 \@outlinefile=\write3
-\openout3 = `instalacja-manjaro.out'.
+\openout3 = `instalacja-arch.out'.
 
 LaTeX Font Info:    Trying to load font information for U+msa on input line 33.
 
@@ -419,348 +419,397 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 33.
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-Underfull \hbox (badness 10000) in paragraph at lines 42--43
+Underfull \hbox (badness 10000) in paragraph at lines 40--41
 
  []
 
 LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 4
-6.
+4.
 (/usr/share/texlive/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
-Underfull \hbox (badness 10000) in paragraph at lines 46--47
+Underfull \hbox (badness 10000) in paragraph at lines 44--45
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 46--47
+Underfull \hbox (badness 10000) in paragraph at lines 44--45
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 46--47
+Underfull \hbox (badness 10000) in paragraph at lines 44--45
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 46--47
+Underfull \hbox (badness 10000) in paragraph at lines 44--45
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 46--47
+Underfull \hbox (badness 10000) in paragraph at lines 44--45
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 46--47
+Underfull \hbox (badness 10000) in paragraph at lines 44--45
 
  []
 
 [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-Underfull \hbox (badness 10000) in paragraph at lines 54--55
 
- []
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\\' on input line 48.
 
-<./../../media/manjaro_install1.png, id=38, 1023.825pt x 764.8575pt>
-File: ./../../media/manjaro_install1.png Graphic file (type png)
-<use ./../../media/manjaro_install1.png>
-Package pdftex.def Info: ./../../media/manjaro_install1.png  used on input line
- 56.
-(pdftex.def)             Requested size: 254.43878pt x 190.08183pt.
+<./../media/arch1.png, id=33, 618.31pt x 344.28625pt>
+File: ./../media/arch1.png Graphic file (type png)
+<use ./../media/arch1.png>
+Package pdftex.def Info: ./../media/arch1.png  used on input line 53.
+(pdftex.def)             Requested size: 339.24956pt x 188.90622pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 59--60
-
- []
-
-<./../../media/manjaro_install2.png, id=39, 1023.825pt x 761.84625pt>
-File: ./../../media/manjaro_install2.png Graphic file (type png)
-<use ./../../media/manjaro_install2.png>
-Package pdftex.def Info: ./../../media/manjaro_install2.png  used on input line
- 61.
-(pdftex.def)             Requested size: 318.04524pt x 236.65814pt.
-[2 <./../../media/manjaro_install1.png> <./../../media/manjaro_install2.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 66--67
-
- []
-
-<./../../media/manjaro_install3.png, id=46, 1028.84375pt x 590.205pt>
-File: ./../../media/manjaro_install3.png Graphic file (type png)
-<use ./../../media/manjaro_install3.png>
-Package pdftex.def Info: ./../../media/manjaro_install3.png  used on input line
- 68.
-(pdftex.def)             Requested size: 402.85602pt x 231.10661pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 68--69
+Underfull \hbox (badness 10000) in paragraph at lines 52--54
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 68--69
+Underfull \hbox (badness 10000) in paragraph at lines 52--54
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 68--69
+Underfull \hbox (badness 10000) in paragraph at lines 52--54
+
+ []
+
+<./../media/arch2.png, id=34, 618.31pt x 245.91875pt>
+File: ./../media/arch2.png Graphic file (type png)
+<use ./../media/arch2.png>
+Package pdftex.def Info: ./../media/arch2.png  used on input line 55.
+(pdftex.def)             Requested size: 339.24956pt x 134.93301pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 54--56
+
+ []
+
+[2 <./../media/arch1.png> <./../media/arch2.png>]
+<./../media/arch3.png, id=41, 750.805pt x 625.33624pt>
+File: ./../media/arch3.png Graphic file (type png)
+<use ./../media/arch3.png>
+Package pdftex.def Info: ./../media/arch3.png  used on input line 58.
+(pdftex.def)             Requested size: 339.24956pt x 282.5628pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 57--59
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 71--72
-
- []
-
-<./../../media/manjaro_install4.png, id=47, 1025.8325pt x 589.20125pt>
-File: ./../../media/manjaro_install4.png Graphic file (type png)
-<use ./../../media/manjaro_install4.png>
-Package pdftex.def Info: ./../../media/manjaro_install4.png  used on input line
- 73.
-(pdftex.def)             Requested size: 402.85602pt x 231.38786pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 73--74
+Underfull \hbox (badness 10000) in paragraph at lines 57--59
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 73--74
+Underfull \hbox (badness 10000) in paragraph at lines 57--59
+
+ []
+
+<./../media/arch4.png, id=42, 733.74126pt x 507.8975pt>
+File: ./../media/arch4.png Graphic file (type png)
+<use ./../media/arch4.png>
+Package pdftex.def Info: ./../media/arch4.png  used on input line 60.
+(pdftex.def)             Requested size: 339.24956pt x 234.82916pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 59--61
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 73--74
-
- []
-
-[3 <./../../media/manjaro_install3.png> <./../../media/manjaro_install4.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 78--79
-
- []
-
-<./../../media/manjaro_install5.png, id=54, 1030.85126pt x 587.19376pt>
-File: ./../../media/manjaro_install5.png Graphic file (type png)
-<use ./../../media/manjaro_install5.png>
-Package pdftex.def Info: ./../../media/manjaro_install5.png  used on input line
- 80.
-(pdftex.def)             Requested size: 402.85602pt x 229.47055pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 80--81
+Underfull \hbox (badness 10000) in paragraph at lines 59--61
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 80--81
+Underfull \hbox (badness 10000) in paragraph at lines 59--61
+
+ []
+
+[3 <./../media/arch3.png> <./../media/arch4.png>]
+<./../media/arch5.png, id=49, 605.26125pt x 323.2075pt>
+File: ./../media/arch5.png Graphic file (type png)
+<use ./../media/arch5.png>
+Package pdftex.def Info: ./../media/arch5.png  used on input line 63.
+(pdftex.def)             Requested size: 339.24956pt x 181.15771pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 62--64
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 80--81
+Underfull \hbox (badness 10000) in paragraph at lines 62--64
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 83--84
+Underfull \hbox (badness 10000) in paragraph at lines 62--64
 
  []
 
-<./../../media/manjaro_install6.png, id=55, 1028.84375pt x 587.19376pt>
-File: ./../../media/manjaro_install6.png Graphic file (type png)
-<use ./../../media/manjaro_install6.png>
-Package pdftex.def Info: ./../../media/manjaro_install6.png  used on input line
- 85.
-(pdftex.def)             Requested size: 402.85602pt x 229.9275pt.
+<./../media/arch6.png, id=50, 569.12625pt x 185.69376pt>
+File: ./../media/arch6.png Graphic file (type png)
+<use ./../media/arch6.png>
+Package pdftex.def Info: ./../media/arch6.png  used on input line 65.
+(pdftex.def)             Requested size: 339.24956pt x 110.69458pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 85--86
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 85--86
+Underfull \hbox (badness 10000) in paragraph at lines 64--66
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 85--86
-
- []
-
-[4 <./../../media/manjaro_install5.png> <./../../media/manjaro_install6.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 90--91
-
- []
-
-<./../../media/manjaro_install7.png, id=62, 1031.855pt x 583.17876pt>
-File: ./../../media/manjaro_install7.png Graphic file (type png)
-<use ./../../media/manjaro_install7.png>
-Package pdftex.def Info: ./../../media/manjaro_install7.png  used on input line
- 92.
-(pdftex.def)             Requested size: 402.85602pt x 227.67906pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 92--93
+Underfull \hbox (badness 10000) in paragraph at lines 64--66
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 92--93
+Underfull \hbox (badness 10000) in paragraph at lines 64--66
+
+ []
+
+<./../media/arch7.png, id=51, 830.10126pt x 470.75874pt>
+File: ./../media/arch7.png Graphic file (type png)
+<use ./../media/arch7.png>
+Package pdftex.def Info: ./../media/arch7.png  used on input line 67.
+(pdftex.def)             Requested size: 339.24956pt x 192.38739pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 66--68
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 92--93
+Underfull \hbox (badness 10000) in paragraph at lines 66--68
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 95--96
+Underfull \hbox (badness 10000) in paragraph at lines 66--68
 
  []
 
-<./../../media/manjaro_install8.png, id=63, 1026.83624pt x 587.19376pt>
-File: ./../../media/manjaro_install8.png Graphic file (type png)
-<use ./../../media/manjaro_install8.png>
-Package pdftex.def Info: ./../../media/manjaro_install8.png  used on input line
- 97.
-(pdftex.def)             Requested size: 402.85602pt x 230.37549pt.
+[4 <./../media/arch5.png> <./../media/arch6.png> <./../media/arch7.png>]
+<./../media/arch8.png, id=59, 831.105pt x 260.975pt>
+File: ./../media/arch8.png Graphic file (type png)
+<use ./../media/arch8.png>
+Package pdftex.def Info: ./../media/arch8.png  used on input line 70.
+(pdftex.def)             Requested size: 339.24956pt x 106.52657pt.
+<./../media/arch9.png, id=60, 735.74875pt x 71.26625pt>
+File: ./../media/arch9.png Graphic file (type png)
+<use ./../media/arch9.png>
+Package pdftex.def Info: ./../media/arch9.png  used on input line 71.
+(pdftex.def)             Requested size: 339.24956pt x 32.86115pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 97--98
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 97--98
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 97--98
-
- []
-
-[5 <./../../media/manjaro_install7.png> <./../../media/manjaro_install8.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 103--104
-
- []
-
-<./../../media/manjaro_install11.png, id=70, 1029.8475pt x 586.19pt>
-File: ./../../media/manjaro_install11.png Graphic file (type png)
-<use ./../../media/manjaro_install11.png>
-Package pdftex.def Info: ./../../media/manjaro_install11.png  used on input lin
-e 105.
-(pdftex.def)             Requested size: 381.6517pt x 217.23573pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 105--106
+Underfull \hbox (badness 10000) in paragraph at lines 69--72
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 105--106
+Underfull \hbox (badness 10000) in paragraph at lines 69--72
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 108--109
-
- []
-
-<./../../media/manjaro_install13.png, id=71, 1027.84pt x 587.19376pt>
-File: ./../../media/manjaro_install13.png Graphic file (type png)
-<use ./../../media/manjaro_install13.png>
-Package pdftex.def Info: ./../../media/manjaro_install13.png  used on input lin
-e 110.
-(pdftex.def)             Requested size: 381.6517pt x 218.0378pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 110--111
+Underfull \hbox (badness 10000) in paragraph at lines 69--72
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 110--111
+Underfull \hbox (badness 10000) in paragraph at lines 69--72
+
+ []
+
+<./../media/arch10-1.png, id=61, 330.23375pt x 55.20625pt>
+File: ./../media/arch10-1.png Graphic file (type png)
+<use ./../media/arch10-1.png>
+Package pdftex.def Info: ./../media/arch10-1.png  used on input line 73.
+(pdftex.def)             Requested size: 339.24956pt x 56.71564pt.
+<./../media/arch10.png, id=62, 833.1125pt x 635.37375pt>
+File: ./../media/arch10.png Graphic file (type png)
+<use ./../media/arch10.png>
+Package pdftex.def Info: ./../media/arch10.png  used on input line 74.
+(pdftex.def)             Requested size: 424.06033pt x 323.41583pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 72--75
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 110--111
-
- []
-
-[6 <./../../media/manjaro_install11.png> <./../../media/manjaro_install13.png>]
-
-Overfull \hbox (55.99951pt too wide) in paragraph at lines 122--123
-[]\T1/cmr/bx/n/10 Rodzina De-biana i Ubuntu \T1/cmr/m/n/10 (me-na-ger pa-kie-tó
-w APT) - $[]$ 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 123--124
+Underfull \hbox (badness 10000) in paragraph at lines 72--75
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 126--127
+Underfull \hbox (badness 10000) in paragraph at lines 72--75
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 130--131
+Underfull \hbox (badness 10000) in paragraph at lines 72--75
+
+ []
+
+[5 <./../media/arch8.png> <./../media/arch9.png> <./../media/arch10-1.png> <./.
+./media/arch10.png>]
+<./../media/arch11.png, id=69, 473.77pt x 73.27374pt>
+File: ./../media/arch11.png Graphic file (type png)
+<use ./../media/arch11.png>
+Package pdftex.def Info: ./../media/arch11.png  used on input line 79.
+(pdftex.def)             Requested size: 339.24956pt x 52.4697pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 78--80
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 137--138
+Underfull \hbox (badness 10000) in paragraph at lines 78--80
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 141--142
+Underfull \hbox (badness 10000) in paragraph at lines 78--80
+
+ []
+
+<./../media/arch12.png, id=70, 460.72125pt x 149.55875pt>
+File: ./../media/arch12.png Graphic file (type png)
+<use ./../media/arch12.png>
+Package pdftex.def Info: ./../media/arch12.png  used on input line 81.
+(pdftex.def)             Requested size: 339.24956pt x 110.12631pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 80--82
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 141--142
+Underfull \hbox (badness 10000) in paragraph at lines 80--82
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 141--142
+Underfull \hbox (badness 10000) in paragraph at lines 80--82
+
+ []
+
+<./../media/arch13.png, id=71, 347.2975pt x 161.60374pt>
+File: ./../media/arch13.png Graphic file (type png)
+<use ./../media/arch13.png>
+Package pdftex.def Info: ./../media/arch13.png  used on input line 83.
+(pdftex.def)             Requested size: 339.24956pt x 157.86508pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 82--84
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 141--142
+Underfull \hbox (badness 10000) in paragraph at lines 82--84
 
  []
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 146.
-[7]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 146.
- (./instalacja-manjaro.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 146.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 146.
-Package rerunfilecheck Info: File `instalacja-manjaro.out' has not changed.
-(rerunfilecheck)             Checksum: A31B85C57D6DAA504216B18D004DE236;246.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 146.
+
+Underfull \hbox (badness 10000) in paragraph at lines 82--84
+
+ []
+
+<./../media/arch14.png, id=72, 322.20375pt x 101.37875pt>
+File: ./../media/arch14.png Graphic file (type png)
+<use ./../media/arch14.png>
+Package pdftex.def Info: ./../media/arch14.png  used on input line 85.
+(pdftex.def)             Requested size: 339.24956pt x 106.74628pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 84--86
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 84--86
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 84--86
+
+ []
+
+[6 <./../media/arch11.png> <./../media/arch12.png> <./../media/arch13.png> <./.
+./media/arch14.png>]
+<./../media/arch15.png, id=79, 494.84875pt x 202.7575pt>
+File: ./../media/arch15.png Graphic file (type png)
+<use ./../media/arch15.png>
+Package pdftex.def Info: ./../media/arch15.png  used on input line 90.
+(pdftex.def)             Requested size: 339.24956pt x 139.00252pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 89--91
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 89--91
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 89--91
+
+ []
+
+<./../media/arch16.png, id=80, 570.13pt x 141.52875pt>
+File: ./../media/arch16.png Graphic file (type png)
+<use ./../media/arch16.png>
+Package pdftex.def Info: ./../media/arch16.png  used on input line 92.
+(pdftex.def)             Requested size: 339.24956pt x 84.21388pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 91--93
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 91--93
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 91--93
+
+ []
+
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 98.
+[7 <./../media/arch15.png> <./../media/arch16.png>]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 98.
+ (./instalacja-arch.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 98.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 98.
+Package rerunfilecheck Info: File `instalacja-arch.out' has not changed.
+(rerunfilecheck)             Checksum: 183E309A8D4D927DE1F1A17238D65F75;156.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 98.
  ) 
 Here is how much of TeX's memory you used:
- 8183 strings out of 480471
- 124305 string characters out of 5901899
- 411969 words of memory out of 5000000
- 24007 multiletter control sequences out of 15000+600000
- 545540 words of font info for 60 fonts, out of 8000000 for 9000
+ 8209 strings out of 480471
+ 124133 string characters out of 5901899
+ 409963 words of memory out of 5000000
+ 24031 multiletter control sequences out of 15000+600000
+ 543945 words of font info for 58 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 37i,6n,70p,1231b,425s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/usr/share/texmf/
-fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/share/texmf/fonts/type1/public/
-cm-super/sfbx1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1200.pf
-b></usr/share/texmf/fonts/type1/public/cm-super/sfrm1000.pfb></usr/share/texmf/
-fonts/type1/public/cm-super/sfrm1200.pfb></usr/share/texmf/fonts/type1/public/c
-m-super/sfrm2074.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm2488.pfb
-></usr/share/texmf/fonts/type1/public/cm-super/sfsl1000.pfb></usr/share/texmf/f
-onts/type1/public/cm-super/sftt1000.pfb>
-Output written on instalacja-manjaro.pdf (7 pages, 1703289 bytes).
+ 37i,6n,70p,1228b,417s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc}{/usr/share/texmf
+/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/share/texmf/fonts/type1/public/
+cm-super/sfbx1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1000.pf
+b></usr/share/texmf/fonts/type1/public/cm-super/sfrm1200.pfb></usr/share/texmf/
+fonts/type1/public/cm-super/sfrm2074.pfb></usr/share/texmf/fonts/type1/public/c
+m-super/sfrm2488.pfb></usr/share/texmf/fonts/type1/public/cm-super/sftt1000.pfb
+>
+Output written on instalacja-arch.pdf (7 pages, 238760 bytes).
 PDF statistics:
- 130 PDF objects out of 1000 (max. 8388607)
- 101 compressed objects within 2 object streams
- 30 named destinations out of 1000 (max. 500000)
- 83 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 121 PDF objects out of 1000 (max. 8388607)
+ 88 compressed objects within 1 object stream
+ 27 named destinations out of 1000 (max. 500000)
+ 110 words of extra memory for PDF output out of 10000 (max. 10000000)
 
